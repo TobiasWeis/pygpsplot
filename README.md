@@ -11,5 +11,5 @@ http://restserver:5000/v1/getimage?lat=50.166204&lon=8.658097&zoom=15&width=20&h
 ## Clone
 smopy is included as a git submodule. to automatically clone it:
 <pre>
-git clone --recursive git://github.com/foo/bar.git
+git clone --recursive https://github.com/TobiasWeis/pygpsplot.git
 </pre>
