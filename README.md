@@ -7,3 +7,9 @@ supply coordinates and get an image with a pin!
 Sample query:
 
 http://restserver:5000/v1/getimage?lat=50.166204&lon=8.658097&zoom=15&width=20&height=10&margin_lat=0.001&margin_lon=0.002
+
+## Clone
+smopy is included as a git submodule. to automatically clone it:
+<pre>
+git clone --recursive git://github.com/foo/bar.git
+</pre>
