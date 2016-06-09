@@ -13,3 +13,9 @@ smopy is included as a git submodule. to automatically clone it:
 <pre>
 git clone --recursive https://github.com/TobiasWeis/pygpsplot.git
 </pre>
+
+And, for some reason smopy does not come as proper package. If you do not want to install it in the system path,
+just create a __init__.py:
+<pre>
+cd smopy && touch __init__.py
+</pre>
