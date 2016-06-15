@@ -19,3 +19,18 @@ just create a __init__.py:
 <pre>
 cd smopy && touch __init__.py
 </pre>
+
+## Usage
+start server.py
+
+API:
+/v1/setcoord?lat=[FLOAT]&lon=[FLOAT]
+inserts a geo-coordinate in the sqlite3 database with the current time
+
+/v1/getwebsite?height=250px - get the full html for a website containg a google-map with a custom marker and a info box inside, marker at the latest position in the database
+
+/v1/getimagelast?zoom=[INT]
+returns a rendered image with a marker of the last position by matplotlib and smopy, 
+
+/v1/getimage?lat=[FLOAT]&lon=[FLOAT]&zoom=[INT]&margin_lat=[FLOAT]&margin_lon=[FLOAT]
+returns a rendered image with a marker on the supplied coordinate
